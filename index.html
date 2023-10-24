@@ -90,10 +90,10 @@
                 <div>
                     <h2>Approach</h2>
                     <p class="has-text-justified" v-html="approach.content"></p>
-                    <!-- <div class="block">
+                    <div class="block">
                         <el-image :src="approach.approach_image_url" class="image-main"></el-image>
                         <p class="paper-text">{{approach.approach_image_caption}}</p>
-                    </div> -->
+                    </div>
                 </div>
                 <div>
                     <h2>Experiments</h2>
@@ -106,24 +106,24 @@
 
 
                 </div>
-                <div>
+<!--                 <div>
                     <h2>Conclusion</h2>
                     <p class="has-text-justified" v-html="conclusion.content"></p>
-                </div>
-                <div class="bibtex text-left">
+                </div> -->
+<!--                 <div class="bibtex text-left">
                     <h2>BibTex</h2>
                     <pre>
                         <code class="bibtext-content">
-<!-- @misc{luo2023valley, 
+@misc{luo2023valley, 
     title={MtArtGPT: A Multi-task Art Generation System with Pre-Trained Transformer}, 
     author={Cong Jin and Ruolin Zhu and Zixing Zhu and Min Yang and Lu Yang and Jiebo Luo}, year={2023}, 
     eprint={}, 
     archivePrefix={arXiv}, 
-    primaryClass={cs.CV}  -->
+    primaryClass={cs.CV} 
 }
                         </code>
                     </pre>
-                </div>
+                </div> -->
                 <div class="text-left">
                     <h2>Acknowledgement</h2>
                     <p>{{acknowledgement.content}}</p>
@@ -264,7 +264,7 @@
 <!-- import JavaScript -->
 <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 <script>
-    var cdn = "https://raw.githubusercontent.com/kiritoD/kiritod.github.io/master/resources";
+    var cdn = "https://raw.githubusercontent.com/MtArtGPT/MtArtGPT.github.io/master/resources";
     paper_data = {
         title: "MTARTGPT: A MULTI-TASK ART GENERATION SYSTEM WITH PRE-TRAINED TRANSFORMER",
         // urls: {
